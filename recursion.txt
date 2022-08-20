@@ -1,0 +1,25 @@
+Recursion occurs when a function calls itself repeatedly until it reaches a specified stopping condition. Such a function is called a recursive function.
+
+For a recursive function, you only need to define the base case and recursive case, so the code is simpler and shorter than an iterative code. Recursion is most useful for tasks that can be defined in terms of similar subtasks.
+
+In the previous module, you had a look at problem-solving using different data structures. Some data-structure problems can be naturally and efficiently solved through recursion. For example, some problems such as graph and tree traversal are inherently recursive.
+
+In this module, you’ll take a look at a variety of recursive problems such as:
+
+    Finding the greatest divisor
+
+    Pascal’s triangle
+
+    Converting decimal to binary number
+
+    Check palindrome
+
+    Balance parenthesis
+
+    Reverse a stack
+
+    Topological sorting of a graph
+
+The content is structured such that we provide you with a problem specification followed by a coding playground for you to attempt a solution. This is followed by a recommended solution.
+
+Let’s begin!
