@@ -1,0 +1,21 @@
+Each row in Pascal’s triangle starts with a 1
+1
+, and ends with a 1
+1
+, hence line is initialized with [1] and later 1
+1
+ is pushed in line variable (line number 8 and 16).
+
+Also, each row is calculated based on the values of the previous row. Thus, the function makes a recursive function call with the previous row number as its argument, i.e., testVariable - 1.
+
+If we reach 0th
+0th
+ row, we return a list containing only 1
+1
+ value: [1]
+[1]
+. This is our base case.
+
+Now, for each recursive call, we use the values of the previous solution.
+
+Let’s have a look at the sequence of function calls:
