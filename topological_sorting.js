@@ -27,14 +27,21 @@ function helperFunction(testVariable, currentNode, visited, result) {
 }
   
 function topologicalSort(testVariable) {
+    // create an array of size (variables) filled with false
     var visited = new Array(testVariable.vertices).fill(false);
-    var result = [];
+    var result = []; 
+    // output ^
     
+    // loops through all the vertices 
     for (var currentNode = 0; currentNode < testVariable.vertices; currentNode++) {
+      // checks if the node has been visited
       if (visited[currentNode] == false) {
+        // otherwise call helperFunction
         helperFunction(testVariable, currentNode, visited, result);
       }
     }
+
+    // this will fill the result array
     return result;
 }
 
