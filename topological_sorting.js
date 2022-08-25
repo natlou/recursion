@@ -13,11 +13,16 @@ function helperFunction(testVariable, currentNode, visited, result) {
     for (var i = 0; i < currentAdjacencyList.length; i++)
     {
       var temp = currentAdjacencyList[i];
+
+      // check if the vertex in the adjacency list has already been visited
       if (visited[temp] == false) {
+        // if it hasnt, recursively call the helper
         helperFunction(testVariable, temp, visited, result);
       }
     }
   }
+
+  // push the currentNode to the front 
   result.unshift(currentNode);
 }
   
