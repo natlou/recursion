@@ -1,10 +1,15 @@
 import Graph from './graph.js'
 
 function helperFunction(testVariable, currentNode, visited, result) {
+
+  // marks the currentNode as visited 
   visited[currentNode] = true; 
 
+  // checks if the currentNode is a vertex in the graph
   if (testVariable.graph.has(currentNode) == true) {
+    // set an adjacencyList (which is a list derived from the key in the graph) 
     var currentAdjacencyList = testVariable.graph.get(currentNode);
+    // loop through this adjacency list
     for (var i = 0; i < currentAdjacencyList.length; i++)
     {
       var temp = currentAdjacencyList[i];
