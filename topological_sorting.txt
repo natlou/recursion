@@ -35,3 +35,19 @@ by arranging the vertices as a linear ordering that is consistent with all edge 
 Implement a function that takes a Directed Acyclic Graph (DAG) and returns a topologically sorted list of nodes for that graph.
 
 Have a look at the implementation of graph class in graph.js file before implementing your solution.
+
+Input#
+A variable testVariable containing the Directed Acyclic Graph.
+
+Output#
+A list containing the topological sorting of that graph.
+
+Sample Input#
+testVariable = {0 -> 1
+                0 -> 3
+                1 -> 2
+                2 -> 3
+                2 -> 4
+                3 -> 4}
+Sample Output#
+[0, 1, 2, 3, 4]
