@@ -18,3 +18,13 @@ For every directed edge {u,v} vertex u comes before v in the ordering.
 Topological sorting for a graph is not possible if the graph is not a DAG.
 
 The algorithm for topological sorting can be visualized as follows:
+
+------------------------------------
+
+Directed acyclic graph
+
+In mathematics, particularly graph theory, and computer science, a directed acyclic graph (DAG) is a directed graph with no directed cycles.
+That is, it consists of vertices and edges (also called arcs), with each edge directed from one vertex to another, 
+such that following those directions will never form a closed loop.
+A directed graph is a DAG if and only if it can be topologically ordered, 
+by arranging the vertices as a linear ordering that is consistent with all edge directions.
