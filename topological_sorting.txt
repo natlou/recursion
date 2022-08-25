@@ -6,6 +6,9 @@ Find the order of the tasks so that each task can be performed in the right orde
 
 This problem can be solved if we find the topological sorting of the graph.
 
+Implement a function that takes a Directed Acyclic Graph (DAG) and returns a topologically sorted list of nodes for that graph.
+
+Have a look at the implementation of graph class in graph.js file before implementing your solution.
 
 ------------------------------------
 
@@ -28,3 +31,7 @@ That is, it consists of vertices and edges (also called arcs), with each edge di
 such that following those directions will never form a closed loop.
 A directed graph is a DAG if and only if it can be topologically ordered, 
 by arranging the vertices as a linear ordering that is consistent with all edge directions.
+
+Implement a function that takes a Directed Acyclic Graph (DAG) and returns a topologically sorted list of nodes for that graph.
+
+Have a look at the implementation of graph class in graph.js file before implementing your solution.
