@@ -16,5 +16,15 @@ function helperFunction(testVariable, currentNode, visited, result) {
   result.unshift(currentNode);
 }
   
-  
+function topologicalSort(testVariable) {
+    var visited = new Array(testVariable.vertices).fill(false);
+    var result = [];
+    
+    for (var currentNode = 0; currentNode < testVariable.vertices; currentNode++) {
+      if (visited[currentNode] == false) {
+        helperFunction(testVariable, currentNode, visited, result);
+      }
+    }
+    return result;
+}
 
