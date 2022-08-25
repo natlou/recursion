@@ -5,3 +5,16 @@ must be completed before a task v can be started, then there is an edge from u t
 Find the order of the tasks so that each task can be performed in the right order.
 
 This problem can be solved if we find the topological sorting of the graph.
+
+
+------------------------------------
+
+What is Topological Sort of a Graph?#
+A topological sort gives the order in which to perform the tasks.
+
+Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices. 
+For every directed edge {u,v} vertex u comes before v in the ordering.
+
+Topological sorting for a graph is not possible if the graph is not a DAG.
+
+The algorithm for topological sorting can be visualized as follows:
