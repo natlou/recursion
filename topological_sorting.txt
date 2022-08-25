@@ -1,0 +1,7 @@
+Problem Statement#
+Imagine you have been given the task to schedule some tasks. The tasks are represented as vertices of the graph, and if a task u
+must be completed before a task v can be started, then there is an edge from u to v in the graph.
+
+Find the order of the tasks so that each task can be performed in the right order.
+
+This problem can be solved if we find the topological sorting of the graph.
